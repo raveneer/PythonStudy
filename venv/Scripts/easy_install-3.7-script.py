@@ -1,4 +1,4 @@
-#!C:\PyProjects\PythonStudy\PythonStudy\venv\Scripts\python.exe
+#!C:\PyProjects\PythonStudy\venv\Scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'setuptools==39.1.0','console_scripts','easy_install-3.7'
 __requires__ = 'setuptools==39.1.0'
 import re
