@@ -2,4 +2,9 @@ def Greeting():
     print('hello world!')
 
 
-Greeting()
+def Summer(a: int, b: int) -> int:
+    return a + b
+
+def MixedCalc (a, b, multiplier):
+    return Summer(a, b) * multiplier
+
