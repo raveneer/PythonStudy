@@ -1,0 +1,5 @@
+{
+  "test_PyAnother.py::TestAnother::()::testSimple": true,
+  "test_PyAnother.py::TestAnother::()::test_Simple": true,
+  "test_PyAnother.py::Test_Another::()::test_Simple": true
+}

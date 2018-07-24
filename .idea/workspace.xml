@@ -3,6 +3,7 @@
   <component name="AutoTestManager">
     <enabled-run-configurations>
       <run-configuration type="tests" name="Unittests in test_sum.py" />
+      <run-configuration type="tests" name="py.test in test_PyTestStudy.py" />
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Hello.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Hello.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hello.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -28,11 +29,29 @@
       <file leaf-file-name="test_sum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_PyTestStudy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_PyTestStudy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_PyAnother.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_PyAnother.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -60,10 +79,12 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
         <option value="$PROJECT_DIR$/Hello.py" />
         <option value="$PROJECT_DIR$/test_sum.py" />
+        <option value="$PROJECT_DIR$/PyTestExample.py" />
+        <option value="$PROJECT_DIR$/test_PyAnother.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -105,7 +126,12 @@
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/Scripts/python.exe" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PyProjects\PythonStudy" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -119,26 +145,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_sum.py">
-    <configuration name="Hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Unittests in test_sum.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.py.test for test_PyAnother.Test_Another.test_Simple">
+    <configuration name="py.test for test_PyAnother.TestAnother" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PythonStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,18 +155,81 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_sum.py&quot;" />
+      <option name="_new_target" value="&quot;test_PyAnother.TestAnother&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test for test_PyAnother.Test_Another" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PythonStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_PyAnother.Test_Another&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test for test_PyAnother.Test_Another.test_Simple" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PythonStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_PyAnother.Test_Another.test_Simple&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test in test_PyAnother.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PythonStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_PyAnother.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="py.test in test_PyTestStudy.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PythonStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_PyTestStudy.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.Hello" />
-      <item itemvalue="Python tests.Unittests in test_sum.py" />
+      <item itemvalue="Python tests.py.test in test_PyTestStudy.py" />
+      <item itemvalue="Python tests.py.test in test_PyAnother.py" />
+      <item itemvalue="Python tests.py.test for test_PyAnother.TestAnother" />
+      <item itemvalue="Python tests.py.test for test_PyAnother.Test_Another" />
+      <item itemvalue="Python tests.py.test for test_PyAnother.Test_Another.test_Simple" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test_sum.py" />
-        <item itemvalue="Python.Hello" />
+        <item itemvalue="Python tests.py.test for test_PyAnother.Test_Another.test_Simple" />
+        <item itemvalue="Python tests.py.test for test_PyAnother.TestAnother" />
+        <item itemvalue="Python tests.py.test in test_PyAnother.py" />
+        <item itemvalue="Python tests.py.test for test_PyAnother.Test_Another" />
+        <item itemvalue="Python tests.py.test in test_PyTestStudy.py" />
       </list>
     </recent_temporary>
   </component>
@@ -176,49 +247,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_sum_py - 2018.07.23 at 10h 57m 41s.xml">
-      <configuration name="Unittests in test_sum.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_PyAnother_TestAnother - 2018.07.24 at 11h 26m 55s.xml">
+      <configuration name="py.test for test_PyAnother.TestAnother" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_sum_py - 2018.07.23 at 10h 57m 48s.xml">
-      <configuration name="Unittests in test_sum.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_PyAnother_Test_Another - 2018.07.24 at 11h 26m 58s.xml">
+      <configuration name="py.test for test_PyAnother.Test_Another" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_sum_py - 2018.07.23 at 10h 58m 14s.xml">
-      <configuration name="Unittests in test_sum.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_PyAnother_py - 2018.07.24 at 11h 27m 12s.xml">
+      <configuration name="py.test in test_PyAnother.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_sum_py - 2018.07.23 at 11h 02m 46s.xml">
-      <configuration name="Unittests in test_sum.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_PyAnother_Test_Another_test_Simple - 2018.07.24 at 11h 27m 15s.xml">
+      <configuration name="py.test for test_PyAnother.Test_Another.test_Simple" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_sum_py - 2018.07.23 at 11h 04m 12s.xml">
-      <configuration name="Unittests in test_sum.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_PyAnother_py - 2018.07.24 at 11h 27m 20s.xml">
+      <configuration name="py.test in test_PyAnother.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_sum_py - 2018.07.23 at 11h 09m 00s.xml">
-      <configuration name="Unittests in test_sum.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_PyAnother_Test_Another - 2018.07.24 at 11h 27m 24s.xml">
+      <configuration name="py.test for test_PyAnother.Test_Another" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_sum_py - 2018.07.23 at 11h 09m 19s.xml">
-      <configuration name="Unittests in test_sum.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_PyAnother_py - 2018.07.24 at 11h 27m 40s.xml">
+      <configuration name="py.test in test_PyAnother.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_sum_py - 2018.07.23 at 11h 09m 41s.xml">
-      <configuration name="Unittests in test_sum.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_PyAnother_py - 2018.07.24 at 11h 27m 50s.xml">
+      <configuration name="py.test in test_PyAnother.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_sum_py - 2018.07.23 at 11h 10m 14s.xml">
-      <configuration name="Unittests in test_sum.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_PyAnother_TestAnother - 2018.07.24 at 11h 27m 56s.xml">
+      <configuration name="py.test for test_PyAnother.TestAnother" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_sum_py - 2018.07.23 at 11h 10m 21s.xml">
-      <configuration name="Unittests in test_sum.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_PyAnother_Test_Another_test_Simple - 2018.07.24 at 11h 28m 03s.xml">
+      <configuration name="py.test for test_PyAnother.Test_Another.test_Simple" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17123288" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23861967" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32362822" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Python Console" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50052685" side_tool="true" weight="0.32362822" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49947312" weight="0.34528077" />
+      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49947312" weight="0.32922733" />
+      <window_info anchor="bottom" id="Python Console" order="0" sideWeight="0.49894625" weight="0.32922733" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49894625" weight="0.32922733" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -227,12 +297,30 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32922733" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Hello.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -289,23 +377,37 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Hello.py" />
-    <entry file="file://$PROJECT_DIR$/test_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Hello.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_PyTestStudy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_PyAnother.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
