@@ -1,0 +1,8 @@
+[
+  "test_PyAnother.py::Test_Another::()::test_Simple",
+  "test_PyTestStudy.py::TestHello::()::test_Simple",
+  "test_PyTestStudy.py::TestHello::()::test_Summer",
+  "test_PyTestStudy.py::TestHello::()::test_MixedCalc",
+  "test_sum.py::TestHello::test_MixedCalc",
+  "test_sum.py::TestHello::test_Summer"
+]

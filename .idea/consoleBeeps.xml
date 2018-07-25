@@ -9,7 +9,17 @@
         </PatternBeep>
         <PatternBeep>
           <option name="beep" value="chimes" />
+          <option name="enabled" value="false" />
           <option name="pattern" value="OK" />
+        </PatternBeep>
+        <PatternBeep>
+          <option name="beep" value="chimes" />
+          <option name="enabled" value="false" />
+          <option name="pattern" value="passed" />
+        </PatternBeep>
+        <PatternBeep>
+          <option name="beep" value="ding" />
+          <option name="pattern" value="failed" />
         </PatternBeep>
       </list>
     </option>
