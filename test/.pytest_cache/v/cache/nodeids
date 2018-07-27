@@ -1,8 +1,19 @@
 [
-  "test_PyAnother.py::Test_Another::()::test_Simple",
-  "test_PyTestStudy.py::TestHello::()::test_Simple",
-  "test_PyTestStudy.py::TestHello::()::test_Summer",
-  "test_PyTestStudy.py::TestHello::()::test_MixedCalc",
-  "test_sum.py::TestHello::test_MixedCalc",
-  "test_sum.py::TestHello::test_Summer"
+  "test_List.py::TestList::()::test_count",
+  "test_List.py::TestList::()::test_add",
+  "test_List.py::TestList::()::test_remove",
+  "test_List.py::TestList::()::test_delete",
+  "test_List.py::TestList::()::test_delete2",
+  "test_List.py::TestList::()::test_Get",
+  "test_List.py::TestList::()::test_Slice",
+  "test_List.py::TestList::()::test_Multiple",
+  "test_List.py::TestList::()::test_Pop",
+  "test_List.py::TestList::()::test_Extend",
+  "test_List.py::TestList::()::test_Quiz1",
+  "test_List.py::TestList::()::test_Quiz2",
+  "test_List.py::TestList::()::test_Quiz3",
+  "test_List.py::TestList::()::test_Quiz4_1",
+  "test_List.py::TestList::()::test_Quiz4_2",
+  "test_List.py::TestList::()::test_Quiz5",
+  "test_List.py::TestList::()::test_Quiz6"
 ]

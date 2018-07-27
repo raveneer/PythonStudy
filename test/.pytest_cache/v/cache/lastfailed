@@ -1,3 +1,8 @@
 {
+  "test_List.py::TestList::()::test_Quiz4": true,
+  "test_List.py::TestList::()::test_Quiz4_1": true,
+  "test_List.py::TestList::()::test_Quiz4_2": true,
+  "test_List.py::TestList::()::test_Quiz5": true,
+  "test_List.py::TestList::()::test_Quiz6": true,
   "test_sum.py::TestHello::test_MixedCalc": true
 }
