@@ -123,21 +123,28 @@ class TestList():
     def test_Quiz4_1(self):
         a =  [1, 2, 3]
         b = [4,5]
-        assert [1,2,3,4,5] == a.extend(b)
+        a.append(b)
+        assert [1,2,3,[4,5]]  == a
 
+    #extend 는 c#의 addRange와 같다. (그리고 잘 안 쓰이지 -_-)
     def test_Quiz4_2(self):
         a = [1, 2, 3]
         b = [4, 5]
-        assert [1, 2, 3, [4, 5]] == a.append(b)
+        a.extend(b)
+        assert [1, 2, 3, 4, 5] == a
 
     #[문제5] 리스트 정렬
     #[1, 3, 5, 4, 2]라는 리스트를 [5, 4, 3, 2, 1]로 만들어보자. (힌트. 리스트의 내장함수인 sort와 reverse를 활용해 보자.)
     def test_Quiz5(self):
         a = [1, 3, 5, 4, 2]
+        a.sort()
+        a.reverse()
         assert [5, 4, 3, 2, 1] == a
 
     #문제6] 리스트 삭제
     #[1, 2, 3, 4, 5]라는 리스트를 [1, 3, 5]로 만들어 보자.
     def test_Quiz6(self):
         a = [1, 2, 3, 4, 5]
+        a.remove(2)
+        a.remove(4)
         assert [1, 3, 5] == a

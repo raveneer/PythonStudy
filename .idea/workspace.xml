@@ -2,9 +2,10 @@
 <project version="4">
   <component name="AutoTestManager">
     <enabled-run-configurations>
-      <run-configuration type="tests" name="py.test in test_List.py" />
       <run-configuration type="tests" name="py.test for test_List.TestList.test_Get" />
       <run-configuration type="tests" name="py.test in test" />
+      <run-configuration type="tests" name="py.test in test_List.py" />
+      <run-configuration type="tests" name="py.test for test_List.TestList.test_Quiz5" />
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
@@ -21,17 +22,20 @@
       <file leaf-file-name="Hello.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonStudy/Hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="85">
+              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding>
+                <element signature="e#135#167#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_sum.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_sum.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -39,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_List.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_List.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_List.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="129" column="18" lean-forward="true" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
+            <state relative-caret-position="280">
+              <caret line="128" column="49" selection-start-line="128" selection-start-column="49" selection-end-line="128" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -97,8 +101,8 @@
         <option value="$PROJECT_DIR$/PyTestExample.py" />
         <option value="$PROJECT_DIR$/test_PyAnother.py" />
         <option value="$PROJECT_DIR$/test/__init__.py" />
-        <option value="$PROJECT_DIR$/test/test_sum.py" />
         <option value="$PROJECT_DIR$/test/test_List.py" />
+        <option value="$PROJECT_DIR$/test/test_sum.py" />
       </list>
     </option>
   </component>
@@ -155,7 +159,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/Scripts/python.exe" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="tasks" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -187,25 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_List.py">
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.py.test in test">
     <configuration name="py.test for test_List.TestList.test_Get" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PythonStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,6 +204,34 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_List.TestList.test_Get&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test for test_List.TestList.test_Quiz5" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PythonStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_List.TestList.test_Quiz5&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test for test_List.TestList.test_Quiz6" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PythonStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_List.TestList.test_Quiz6&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="py.test in test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -248,34 +262,20 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_List.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in test_sum.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="PythonStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_sum.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <list>
-      <item itemvalue="Python.__init__" />
-      <item itemvalue="Python tests.py.test in test_sum.py" />
       <item itemvalue="Python tests.py.test in test" />
       <item itemvalue="Python tests.py.test for test_List.TestList.test_Get" />
       <item itemvalue="Python tests.py.test in test_List.py" />
+      <item itemvalue="Python tests.py.test for test_List.TestList.test_Quiz5" />
+      <item itemvalue="Python tests.py.test for test_List.TestList.test_Quiz6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test in test" />
+        <item itemvalue="Python tests.py.test for test_List.TestList.test_Quiz6" />
+        <item itemvalue="Python tests.py.test for test_List.TestList.test_Quiz5" />
         <item itemvalue="Python tests.py.test in test_List.py" />
         <item itemvalue="Python tests.py.test for test_List.TestList.test_Get" />
-        <item itemvalue="Python tests.py.test in test" />
-        <item itemvalue="Python tests.py.test in test_sum.py" />
-        <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
   </component>
@@ -293,35 +293,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_List_py - 2018.07.27 at 10h 58m 25s.xml">
-      <configuration name="py.test in test_List.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_List_TestList_test_Quiz5 - 2018.07.28 at 19h 28m 37s.xml">
+      <configuration name="py.test for test_List.TestList.test_Quiz5" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_List_py - 2018.07.27 at 10h 58m 46s.xml">
-      <configuration name="py.test in test_List.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_List_TestList_test_Quiz5 - 2018.07.28 at 19h 29m 18s.xml">
+      <configuration name="py.test for test_List.TestList.test_Quiz5" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_List_py - 2018.07.27 at 10h 59m 08s.xml">
-      <configuration name="py.test in test_List.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_List_TestList_test_Quiz5 - 2018.07.28 at 19h 29m 34s.xml">
+      <configuration name="py.test for test_List.TestList.test_Quiz5" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_List_py - 2018.07.27 at 10h 59m 37s.xml">
-      <configuration name="py.test in test_List.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_List_TestList_test_Quiz6 - 2018.07.28 at 19h 29m 38s.xml">
+      <configuration name="py.test for test_List.TestList.test_Quiz6" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_List_py - 2018.07.27 at 11h 00m 30s.xml">
-      <configuration name="py.test in test_List.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_List_TestList_test_Quiz6 - 2018.07.28 at 19h 29m 58s.xml">
+      <configuration name="py.test for test_List.TestList.test_Quiz6" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_List_py - 2018.07.27 at 11h 00m 47s.xml">
-      <configuration name="py.test in test_List.py" configurationId="tests" />
+    <history-entry file="py_test_in_test - 2018.07.28 at 19h 30m 13s.xml">
+      <configuration name="py.test in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_List_py - 2018.07.27 at 11h 01m 08s.xml">
-      <configuration name="py.test in test_List.py" configurationId="tests" />
+    <history-entry file="py_test_in_test - 2018.07.28 at 19h 30m 33s.xml">
+      <configuration name="py.test in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_List_py - 2018.07.27 at 11h 01m 25s.xml">
-      <configuration name="py.test in test_List.py" configurationId="tests" />
+    <history-entry file="py_test_in_test - 2018.07.28 at 19h 31m 26s.xml">
+      <configuration name="py.test in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_List_py - 2018.07.27 at 11h 01m 48s.xml">
-      <configuration name="py.test in test_List.py" configurationId="tests" />
+    <history-entry file="py_test_in_test - 2018.07.28 at 19h 32m 33s.xml">
+      <configuration name="py.test in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_List_py - 2018.07.27 at 11h 02m 42s.xml">
-      <configuration name="py.test in test_List.py" configurationId="tests" />
+    <history-entry file="py_test_in_test - 2018.07.28 at 19h 33m 29s.xml">
+      <configuration name="py.test in test" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -330,7 +330,6 @@
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4991453" visible="true" weight="0.17123288" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50052685" side_tool="true" weight="0.32362822" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32922733" />
       <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49947312" weight="0.3449048" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49947312" weight="0.32922733" />
       <window_info anchor="bottom" id="Python Console" order="0" sideWeight="0.49894625" weight="0.32922733" />
@@ -345,6 +344,7 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32922733" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -356,6 +356,50 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PythonStudy/Hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#135#167#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_PyTestStudy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_PyAnother.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_List.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="129" column="18" lean-forward="true" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PythonStudy/Hello.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -606,23 +650,10 @@
     <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/Hello.py">
+    <entry file="file://$PROJECT_DIR$/test/test_List.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="280">
+          <caret line="128" column="49" selection-start-line="128" selection-start-column="49" selection-end-line="128" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -640,10 +671,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_List.py">
+    <entry file="file://$PROJECT_DIR$/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonStudy/Hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="129" column="18" lean-forward="true" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
+        <state relative-caret-position="85">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="e#135#167#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
