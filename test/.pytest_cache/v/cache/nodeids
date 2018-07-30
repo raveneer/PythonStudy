@@ -35,6 +35,17 @@
   "test_PyTestStudy.py::TestHello::()::test_Simple",
   "test_PyTestStudy.py::TestHello::()::test_Summer",
   "test_PyTestStudy.py::TestHello::()::test_MixedCalc",
+  "test_Set.py::TestSet::()::test_MakeSet",
+  "test_Set.py::TestSet::()::test_count",
+  "test_Set.py::TestSet::()::test_Incert",
+  "test_Set.py::TestSet::()::test_Interset_Union_Diff",
+  "test_Set.py::TestSet::()::test_GetValues",
+  "test_Set.py::TestSet::()::test_AddMultiple",
+  "test_Set.py::TestSet::()::test_quiz1",
+  "test_Set.py::TestSet::()::test_quiz2",
+  "test_Set.py::TestSet::()::test_quiz3",
+  "test_Set.py::TestSet::()::test_quiz4",
+  "test_Set.py::TestSet::()::test_quiz5",
   "test_sum.py::TestHello::test_MixedCalc",
   "test_sum.py::TestHello::test_Summer"
 ]
