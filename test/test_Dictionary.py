@@ -142,4 +142,36 @@ class TestDictionary():
     # 해당되는 키값이 없을 경우 오류 대신 70을 얻을수 있도록 수정해 보자.
     def test_Extract_Return_SomeValueWhenNoKey(self):
         a = {'A': 90, 'B': 80, 'C': 70}
-        assert 70 == a.get
+
+        assert 90 == a['A']
+        assert 90 == self.TryGetValue(a, 'A')
+        assert 80 == self.TryGetValue(a, 'B')
+        assert 70 == self.TryGetValue(a, 'C')
+        assert 70 == self.TryGetValue(a, 'a')
+
+    def TryGetValue(self, a : dict, key : str) -> int:
+        if(key in a.keys()):
+            return a[key]
+        else:
+            return 70
+
+    #[문제5] 딕셔너리 최소값 다음과 같은 딕셔너리 a가 있다.
+    #>>> a = {'A':90, 'B':80, 'C':70}
+    #딕셔너리 a의 value중에서 최소 값을 출력하시오.
+    def test_FindLowestValue(self):
+        a = {'A': 90, 'B': 80, 'C': 70}
+
+        valueList = list(a.values())
+        valueList.sort()
+        assert 70 == valueList[0]
+
+    #문제6] 딕셔너리 리스트 변환
+    #다음과 같은 딕셔너리 a가 있다.
+    #>>> a = {'A':90, 'B':80, 'C':70}
+    #위 딕셔너리 a를 다음과 같은 리스트로 만들어보자.
+    #[('A', 90), ('B', 80), ('C', 70)]
+    def test_DicToList(self):
+        a = {'A': 90, 'B': 80, 'C': 70}
+        pair = a.items()
+        result = list(pair)
+        assert [('A', 90), ('B', 80), ('C', 70)] == result

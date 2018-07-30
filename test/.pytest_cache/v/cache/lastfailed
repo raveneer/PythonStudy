@@ -1,6 +1,5 @@
 {
   "test_Dictionary.py::TestDictionary::()::test_Extend": true,
-  "test_Dictionary.py::TestDictionary::()::test_Extract_Return_SomeValueWhenNoKey": true,
   "test_Dictionary.py::TestDictionary::()::test_Multiple": true,
   "test_Dictionary.py::TestDictionary::()::test_Slice": true,
   "test_Dictionary.py::TestDictionary::()::test_delete2": true,

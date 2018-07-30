@@ -12,6 +12,8 @@
   "test_Dictionary.py::TestDictionary::()::test_Dic_WhatMakesError",
   "test_Dictionary.py::TestDictionary::()::test_Extract_B",
   "test_Dictionary.py::TestDictionary::()::test_Extract_Return_SomeValueWhenNoKey",
+  "test_Dictionary.py::TestDictionary::()::test_FindLowestValue",
+  "test_Dictionary.py::TestDictionary::()::test_DicToList",
   "test_List.py::TestList::()::test_count",
   "test_List.py::TestList::()::test_add",
   "test_List.py::TestList::()::test_remove",
