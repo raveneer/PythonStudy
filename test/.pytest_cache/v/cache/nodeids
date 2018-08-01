@@ -1,4 +1,7 @@
 [
+  "test_Bool.py::TestBool::()::test_TrueFalse",
+  "test_Bool.py::TestBool::()::test_EmptyCollection_Is_False",
+  "test_Bool.py::TestBool::()::test_Quiz1",
   "test_Dictionary.py::TestDictionary::()::test_count",
   "test_Dictionary.py::TestDictionary::()::test_Incert",
   "test_Dictionary.py::TestDictionary::()::test_Pop",

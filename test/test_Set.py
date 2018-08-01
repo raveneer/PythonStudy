@@ -4,12 +4,12 @@ import pytest
 class TestSet():
 
     def test_MakeSet(self):
-        sets = set([1,2,3,4,5])
-        sets2 = set([4, 5, 6, 7, 8])
+        sets = {1, 2, 3, 4, 5}
+        sets2 = {4, 5, 6, 7, 8}
 
 
     def test_count(self):
-        sets = set([1,2,3])
+        sets = {1, 2, 3}
         sets2 = set("Hello")
         assert 3 == len(sets)
         assert 4 == len(sets2)
@@ -23,8 +23,8 @@ class TestSet():
         assert 5 == len(sets)
 
     def test_Interset_Union_Diff(self):
-        sets1 = set([1,2,3,4,5])
-        sets2= set([4, 5, 6, 7, 8])
+        sets1 = {1, 2, 3, 4, 5}
+        sets2= {4, 5, 6, 7, 8}
 
         interseted = sets1 & sets2
         assert {4,5} == interseted
@@ -88,8 +88,8 @@ class TestSet():
     # >>> s2 = set(['c', 'd', 'e', 'f', 'g'])
     # s1 집합의 항목 중 s2 집합에 포함된 항목을 제거 해 보자.
     def test_quiz3(self):
-        s1 = set(['a', 'b', 'c', 'd', 'e'])
-        s2 = set(['c', 'd', 'e', 'f', 'g'])
+        s1 = {'a', 'b', 'c', 'd', 'e'}
+        s2 = {'c', 'd', 'e', 'f', 'g'}
         s1 = s1-s2
         assert {'a', 'b'} == s1
 

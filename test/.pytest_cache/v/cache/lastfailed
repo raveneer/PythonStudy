@@ -1,4 +1,5 @@
 {
+  "test_Bool.py::TestBool::()::test_quiz2": true,
   "test_Dictionary.py::TestDictionary::()::test_Extend": true,
   "test_Dictionary.py::TestDictionary::()::test_Multiple": true,
   "test_Dictionary.py::TestDictionary::()::test_Slice": true,
