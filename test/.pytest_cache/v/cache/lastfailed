@@ -6,5 +6,6 @@
   "test_Dictionary.py::TestDictionary::()::test_delete2": true,
   "test_List.py::TestList::()::test_Quiz4": true,
   "test_Set.py::TestSet::()::test_Pop": true,
-  "test_Set.py::TestSet::()::test_delete": true
+  "test_Set.py::TestSet::()::test_delete": true,
+  "test_Variables.py::TestVariables::()::test_Init": true
 }

@@ -49,6 +49,13 @@
   "test_Set.py::TestSet::()::test_quiz3",
   "test_Set.py::TestSet::()::test_quiz4",
   "test_Set.py::TestSet::()::test_quiz5",
+  "test_Variables.py::TestVariables::()::test_Quiz1",
+  "test_Variables.py::TestVariables::()::test_Quiz2",
+  "test_Variables.py::TestVariables::()::test_quiz3",
+  "test_Variables.py::TestVariables::()::test_quiz4",
+  "test_Variables.py::TestVariables::()::test_quiz5",
+  "test_Variables.py::TestVariables::()::test_quiz6",
+  "test_Variables.py::TestVariables::()::test_quiz7",
   "test_sum.py::TestHello::test_MixedCalc",
   "test_sum.py::TestHello::test_Summer"
 ]
