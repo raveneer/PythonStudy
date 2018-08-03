@@ -56,6 +56,11 @@
   "test_Variables.py::TestVariables::()::test_quiz5",
   "test_Variables.py::TestVariables::()::test_quiz6",
   "test_Variables.py::TestVariables::()::test_quiz7",
+  "test_if.py::TestIf::()::test_quiz1",
+  "test_if.py::TestIf::()::test_quiz2",
+  "test_if.py::TestIf::()::test_quiz3",
+  "test_if.py::TestIf::()::test_quiz4",
+  "test_if.py::TestIf::()::test_quiz5",
   "test_sum.py::TestHello::test_MixedCalc",
   "test_sum.py::TestHello::test_Summer"
 ]
