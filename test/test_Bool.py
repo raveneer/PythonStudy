@@ -30,6 +30,12 @@ class TestBool():
             result = 6
         assert 6 == result
 
+    def test_NotEquual(self):
+        assert 1 == 1
+        assert 1 != 2
+        assert 1 in (1,2,3)
+        assert 4 not in (1, 2,3)
+        assert int == type(1)
 
 
     #[문제1] 불 자료형과 조건문

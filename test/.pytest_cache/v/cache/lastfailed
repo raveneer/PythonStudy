@@ -1,11 +1,18 @@
 {
   "test_Bool.py::TestBool::()::test_quiz2": true,
+  "test_Class.py::TestClass::()::test_ChangeClassValuable": true,
   "test_Dictionary.py::TestDictionary::()::test_Extend": true,
   "test_Dictionary.py::TestDictionary::()::test_Multiple": true,
   "test_Dictionary.py::TestDictionary::()::test_Slice": true,
   "test_Dictionary.py::TestDictionary::()::test_delete2": true,
+  "test_IO.py::TestIO::()::test_makeFileAtDirectory": true,
   "test_List.py::TestList::()::test_Quiz4": true,
   "test_Set.py::TestSet::()::test_Pop": true,
   "test_Set.py::TestSet::()::test_delete": true,
-  "test_Variables.py::TestVariables::()::test_Init": true
+  "test_Variables.py::TestVariables::()::test_Init": true,
+  "test_pack.py::TestPackage::()::test_reverse": true,
+  "test_pythonIncludedFunctions.py::TestpytonIncludedFunctions::()::test_dir": true,
+  "test_while.py::TestWile::()::test_quiz_drawStars2": true,
+  "test_while.py::TestWile::()::test_simpleMultipleStr": true,
+  "test_while.py::TestWile::()::test_stringIsImmutable": true
 }

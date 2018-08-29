@@ -26,14 +26,17 @@ class TestSet():
         sets1 = {1, 2, 3, 4, 5}
         sets2= {4, 5, 6, 7, 8}
 
-        interseted = sets1 & sets2
-        assert {4,5} == interseted
+        intersected = sets1 & sets2
+        assert {4, 5} == intersected
 
-        union = sets1 | sets2
-        assert {1,2,3,4,5,6,7,8} == union
+        unioned = sets1 | sets2
+        assert {1, 2, 3, 4, 5, 6, 7, 8} == unioned
 
-        difference = sets1 - sets2
-        assert {1, 2, 3} == difference
+        diffFromSet1 = sets1 - sets2
+        assert {1,2,3} == diffFromSet1
+
+        diffFromSet2 = sets2 - sets1
+        assert {6,7,8} == diffFromSet2
 
 
     #pop은 랜덤하게 (해싱을 하기는 하지만?) 빼낸다. => 쓰지마라
