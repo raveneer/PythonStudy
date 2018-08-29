@@ -57,22 +57,26 @@
       <file leaf-file-name="SQLiteExample.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/SQLiteExample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.sqlite" pinned="false" current-in-tab="false">
+      <file leaf-file-name="db.sqlite" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example/db.sqlite">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="96" lean-forward="true" selection-start-line="2" selection-start-column="96" selection-end-line="2" selection-end-column="96" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_db.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_db.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/test_db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="238">
+              <caret line="14" column="38" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="14" selection-end-column="38" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -157,8 +161,8 @@
         <option value="$PROJECT_DIR$/test/test_List.py" />
         <option value="$PROJECT_DIR$/test/test_LikePython.py" />
         <option value="$PROJECT_DIR$/example/test.py" />
-        <option value="$PROJECT_DIR$/example/test_db.py" />
         <option value="$PROJECT_DIR$/example/SQLiteExample.py" />
+        <option value="$PROJECT_DIR$/example/test_db.py" />
       </list>
     </option>
   </component>
@@ -356,34 +360,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_example - 2018.08.29 at 10h 52m 02s.xml">
+    <history-entry file="py_test_in_example - 2018.08.29 at 11h 09m 09s.xml">
       <configuration name="py.test in example" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 10h 54m 44s.xml">
+    <history-entry file="py_test_in_example - 2018.08.29 at 11h 09m 37s.xml">
       <configuration name="py.test in example" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 10h 55m 10s.xml">
+    <history-entry file="py_test_in_example - 2018.08.29 at 11h 09m 47s.xml">
       <configuration name="py.test in example" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 10h 55m 17s.xml">
+    <history-entry file="py_test_in_example - 2018.08.29 at 11h 10m 15s.xml">
       <configuration name="py.test in example" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 10h 55m 24s.xml">
+    <history-entry file="py_test_in_example - 2018.08.29 at 11h 11m 11s.xml">
       <configuration name="py.test in example" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 10h 55m 39s.xml">
+    <history-entry file="py_test_in_example - 2018.08.29 at 11h 11m 21s.xml">
       <configuration name="py.test in example" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 10h 55m 45s.xml">
+    <history-entry file="py_test_in_example - 2018.08.29 at 11h 11m 24s.xml">
       <configuration name="py.test in example" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 10h 55m 51s.xml">
+    <history-entry file="py_test_in_example - 2018.08.29 at 11h 11m 47s.xml">
       <configuration name="py.test in example" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 10h 56m 04s.xml">
+    <history-entry file="py_test_in_example - 2018.08.29 at 11h 11m 51s.xml">
       <configuration name="py.test in example" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 10h 56m 09s.xml">
+    <history-entry file="py_test_in_example - 2018.08.29 at 11h 11m 57s.xml">
       <configuration name="py.test in example" configurationId="tests" />
     </history-entry>
   </component>
@@ -396,7 +400,7 @@
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50052685" side_tool="true" weight="0.32362822" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49947312" weight="0.32922733" />
       <window_info anchor="bottom" id="Python Console" order="0" sideWeight="0.49894625" weight="0.32922733" />
-      <window_info anchor="bottom" x="-1241" y="337" width="999" height="614" id="Run" order="6" sideWeight="0.49947312" type="FLOATING" visible="true" weight="0.3449048" />
+      <window_info anchor="bottom" x="-1241" y="337" width="999" height="614" id="Run" order="6" sideWeight="0.49947312" type="FLOATING" weight="0.3449048" />
       <window_info id="Structure" order="2" sideWeight="0.50085473" side_tool="true" weight="0.17123288" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49894625" weight="0.32922733" />
       <window_info id="Favorites" order="0" sideWeight="0.5044743" side_tool="true" weight="0.1743941" />
@@ -713,26 +717,30 @@
     <entry file="file://$PROJECT_DIR$/PythonStudy/Hello.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/db.sqlite">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/example/SQLiteExample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/test_db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="238">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="14" selection-end-column="38" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/db.sqlite">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="96" lean-forward="true" selection-start-line="2" selection-start-column="96" selection-end-line="2" selection-end-column="96" />
         </state>
       </provider>
     </entry>

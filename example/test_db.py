@@ -8,3 +8,8 @@ class TestDBController():
         db_controller = example.SQLiteExample.DBController()
         db_controller.connect()
         assert None is not db_controller.con
+
+    # def test_make_table(self):
+    #     db_controller = example.SQLiteExample.DBController()
+    #     db_controller.connect()
+    #     db_controller.create_table()

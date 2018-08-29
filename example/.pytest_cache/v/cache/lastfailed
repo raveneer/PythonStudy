@@ -1,1 +1,3 @@
-{}
+{
+  "test_db.py::TestDBController::()::test_make_table": true
+}
