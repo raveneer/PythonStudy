@@ -1,3 +1,5 @@
 [
-  "test_db.py::TestDBController::()::test_connect"
+  "test_db.py::TestDBController::()::test_connect",
+  "test_db.py::TestDBController::()::test_fetch_one",
+  "test_db.py::TestDBController::()::test_fetch_all"
 ]

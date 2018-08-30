@@ -1,3 +1,4 @@
 {
+  "test_db.py::TestDBController::()::test_fetch_all": true,
   "test_db.py::TestDBController::()::test_make_table": true
 }

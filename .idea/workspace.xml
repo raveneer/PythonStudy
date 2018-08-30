@@ -2,10 +2,10 @@
 <project version="4">
   <component name="AutoTestManager">
     <enabled-run-configurations>
-      <run-configuration type="tests" name="py.test in example" />
-      <run-configuration type="tests" name="py.test for test_Exception.TestException.test_MyExcept3" />
       <run-configuration type="tests" name="py.test for test_Exception.TestException" />
       <run-configuration type="tests" name="py.test in test" />
+      <run-configuration type="tests" name="py.test in test_db.py" />
+      <run-configuration type="tests" name="py.test in example" />
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
@@ -57,26 +57,17 @@
       <file leaf-file-name="SQLiteExample.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/SQLiteExample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="391">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.sqlite" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example/db.sqlite">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="96" lean-forward="true" selection-start-line="2" selection-start-column="96" selection-end-line="2" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_db.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_db.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example/test_db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="38" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="425">
+              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -258,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in example">
+  <component name="RunManager" selected="Python tests.py.test in test_db.py">
     <configuration name="py.test for test_Exception.TestException" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PythonStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,20 +262,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_Exception.TestException&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="py.test for test_Exception.TestException.test_MyExcept3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="PythonStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Exception.TestException.test_MyExcept3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="py.test for test_Exception.TestException.test_quiz4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -329,20 +306,34 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="py.test in test_db.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PythonStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/example/test_db.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <list>
       <item itemvalue="Python tests.py.test in test" />
-      <item itemvalue="Python tests.py.test for test_Exception.TestException.test_MyExcept3" />
       <item itemvalue="Python tests.py.test for test_Exception.TestException.test_quiz4" />
       <item itemvalue="Python tests.py.test for test_Exception.TestException" />
       <item itemvalue="Python tests.py.test in example" />
+      <item itemvalue="Python tests.py.test in test_db.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test in test_db.py" />
         <item itemvalue="Python tests.py.test in example" />
         <item itemvalue="Python tests.py.test in test" />
         <item itemvalue="Python tests.py.test for test_Exception.TestException" />
         <item itemvalue="Python tests.py.test for test_Exception.TestException.test_quiz4" />
-        <item itemvalue="Python tests.py.test for test_Exception.TestException.test_MyExcept3" />
       </list>
     </recent_temporary>
   </component>
@@ -360,51 +351,52 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_example - 2018.08.29 at 11h 09m 09s.xml">
-      <configuration name="py.test in example" configurationId="tests" />
+    <history-entry file="py_test_in_test_db_py - 2018.08.30 at 10h 45m 35s.xml">
+      <configuration name="py.test in test_db.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 11h 09m 37s.xml">
-      <configuration name="py.test in example" configurationId="tests" />
+    <history-entry file="py_test_in_test_db_py - 2018.08.30 at 10h 46m 03s.xml">
+      <configuration name="py.test in test_db.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 11h 09m 47s.xml">
-      <configuration name="py.test in example" configurationId="tests" />
+    <history-entry file="py_test_in_test_db_py - 2018.08.30 at 10h 46m 14s.xml">
+      <configuration name="py.test in test_db.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 11h 10m 15s.xml">
-      <configuration name="py.test in example" configurationId="tests" />
+    <history-entry file="py_test_in_test_db_py - 2018.08.30 at 10h 47m 10s.xml">
+      <configuration name="py.test in test_db.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 11h 11m 11s.xml">
-      <configuration name="py.test in example" configurationId="tests" />
+    <history-entry file="py_test_in_test_db_py - 2018.08.30 at 10h 48m 29s.xml">
+      <configuration name="py.test in test_db.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 11h 11m 21s.xml">
-      <configuration name="py.test in example" configurationId="tests" />
+    <history-entry file="py_test_in_test_db_py - 2018.08.30 at 10h 48m 44s.xml">
+      <configuration name="py.test in test_db.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 11h 11m 24s.xml">
-      <configuration name="py.test in example" configurationId="tests" />
+    <history-entry file="py_test_in_test_db_py - 2018.08.30 at 10h 48m 45s.xml">
+      <configuration name="py.test in test_db.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 11h 11m 47s.xml">
-      <configuration name="py.test in example" configurationId="tests" />
+    <history-entry file="py_test_in_test_db_py - 2018.08.30 at 10h 49m 46s.xml">
+      <configuration name="py.test in test_db.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 11h 11m 51s.xml">
-      <configuration name="py.test in example" configurationId="tests" />
+    <history-entry file="py_test_in_test_db_py - 2018.08.30 at 10h 50m 03s.xml">
+      <configuration name="py.test in test_db.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_example - 2018.08.29 at 11h 11m 57s.xml">
-      <configuration name="py.test in example" configurationId="tests" />
+    <history-entry file="py_test_in_test_db_py - 2018.08.30 at 10h 50m 21s.xml">
+      <configuration name="py.test in test_db.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4949608" visible="true" weight="0.12486828" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4949608" visible="true" weight="0.12486828" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50052685" side_tool="true" weight="0.32362822" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32922733" />
+      <window_info anchor="bottom" x="-1015" y="80" width="999" height="745" id="Run" order="6" sideWeight="0.49947312" type="FLOATING" weight="0.3449048" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49947312" weight="0.32922733" />
       <window_info anchor="bottom" id="Python Console" order="0" sideWeight="0.49894625" weight="0.32922733" />
-      <window_info anchor="bottom" x="-1241" y="337" width="999" height="614" id="Run" order="6" sideWeight="0.49947312" type="FLOATING" weight="0.3449048" />
       <window_info id="Structure" order="2" sideWeight="0.50085473" side_tool="true" weight="0.17123288" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49894625" weight="0.32922733" />
-      <window_info id="Favorites" order="0" sideWeight="0.5044743" side_tool="true" weight="0.1743941" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39977604" />
+      <window_info id="Favorites" order="0" sideWeight="0.5044743" side_tool="true" weight="0.1743941" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Dependency Graph" order="11" visible="true" weight="0.32922733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -412,7 +404,6 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32922733" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -714,33 +705,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/Hello.py">
+    <entry file="file://$PROJECT_DIR$/example/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/__init__.py">
+    <entry file="file://$PROJECT_DIR$/example/db.sqlite">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonStudy/Hello.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/example/SQLiteExample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="391">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/test_db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="425">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/db.sqlite">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="96" lean-forward="true" selection-start-line="2" selection-start-column="96" selection-end-line="2" selection-end-column="96" />
         </state>
       </provider>
     </entry>
